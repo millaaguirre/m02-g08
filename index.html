@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+</style>
+	<title>Website grupo 08</title>
+</head>
+<body>
+	<nav class="navbar">
+		<h1 class="logo">GRUPO 8</h1>
+		<ul class="nav-links">
+			<li class="active"><a href="#contenido">HOME</a></li>
+			<li class="otros"><a href="#">PAPER</a></li>
+			<li class="otros"><a href="#">DESIGN PROYECT</a></li>
+			<li class="otros"><a href="#">vinculación</a></li>
+			<li class="ctn"><a href="#Referencias">REFERENCIAS</a></li>
+		</ul>
+		<img src="Photos/menu-btn.png" alt="" class="menu-btn">
+	</nav>
+
+	<header>
+		<div class="header-content">
+			<h2>ENSAYO WEB</h2>
+			<div class="line"></div>
+			<h1>Aaron Koblin: Unnumbered Sparks - "El arte del mañana"</h1>
+		</div>
+	</header>
+
+	<section class="contenido" id="contenido">
+		<div class="title">
+			<div class="line"></div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<img src="Photos/3.png">
+				<h4>PAPER</h4>
+				<a href="#" class="ctn">LEER</a>
+			</div>
+			<div class="col">
+				<img src="Photos/1.png">
+				<h4>PROYECTO DE DISEÑO</h4>
+				<a href="#" class="ctn">LEER</a>
+			</div>
+			<div class="col">
+				<img src="Photos/4.png">
+				<h4>Vinculación</h4>
+				<a href="#" class="ctn">LEER</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer" id="Referencias">
+		<p>Proyecto de diseño y paper: <a href="http://www.aaronkoblin.com/project/unnumbered-sparks/ ">http://www.aaronkoblin.com/project/unnumbered-sparks/</a> & <a href="http://newmediafix.net/aminima/stocker.pdf">http://newmediafix.net/aminima/stocker.pdf</a></p>
+		<p>Videos utilizados e inspo: <a href="https://www.youtube.com/watch?v=ZdJSHEczi_0&t=738s ">https://www.youtube.com/watch?v=ZdJSHEczi_0&t=738s </a>,<a href="https://www.whoisindyblue.com/">https://www.whoisindyblue.com/</a></p>
+	</section>
+
+	<script>
+		const menuBtn = document.querySelector('.menu-btn')
+		const navlinks = document.querySelector('.nav-links')
+
+		menuBtn.addEventListener('click',()=>{
+			navlinks.classList.toggle('mobile-menu')
+		})
+	</script>
+</body>
+</html>
