@@ -142,27 +142,6 @@ h4{
 	margin: 20px auto;
 }
 
-.footer{
-	width: 100%;
-	min-height: 100px;
-	padding: 20px 80px;
-	margin: 0;
-	background: #3E424A;
-	text-align: center;
-}
-
-.footer p{
-	color: #FFFFFF;
-	margin: 20px auto;
-	font-family: Quattrocento Sans;
-}
-
-.footer p a{
-	color: #FFFFFF;
-	text-decoration: underline;
-}
-
-
 .contenido .ctn{
 	margin-top: 30px;
 }
@@ -201,11 +180,11 @@ h4{
 	}
 
 /*Animations*/
-img{
+.col img{
 	transition: transform 0.3s ease;
 }
 
-img:hover{
+.col img:hover{
 	transform: scale(1.05);
 }
 
@@ -220,13 +199,90 @@ li:hover{
 	cursor: pointer;
 }
 
+.paper{
+	max-width: 80%;
+	margin: 80px auto;
+	text-align: center;
+	padding-top: 100px;
+}
 
+.paper h1{
+	font-size: 6vmin;
+	font-family: Aboreto;
+}
 
+.title2{
+	position: relative;
+}
 
+img{
+	padding-top: 20px;
+	object-fit: cover;
+	width: 100%;
+	max-height: 400px;
+}
 
+.tituloGS {
+	font-family: Aboreto;
+	color: #0B0A0A;
+	font-size: 5vmin;
+	margin-left: 100px;
+	text-align: justify;
+	position: absolute;
+	top: 30%;
+}
 
+p{
+	font-size: 14px;
+	line-height: 22px;
+	padding: 10px;
+	font-family: Quattrocento Sans;
+	color: #FFFFFF;
+}
 
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
 
+.paper-col{
+	flex-basis: 31%;
+	background: #FF577F;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+}
+
+.title3{
+	font-family: Aboreto;
+	color: #0B0A0A;
+	font-size: 3vmin;
+}
+
+.resumenbx{
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 40px;
+}
+
+.resumenbx p{
+	font-size: 14px;
+	line-height: 22px;
+	padding: 10px;
+	font-family: Quattrocento Sans;
+	color: #0B0A0A;
+	text-align: justify;
+	width: 800px;
+}
+
+.resumen .ImgBx{
+
+	position: relative;
+	float: right;
+}
 
 
 
