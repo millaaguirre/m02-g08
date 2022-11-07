@@ -6,6 +6,7 @@
  }
 body , html{
 	overflow-x: hidden;
+	background: #F8F8F8;
 }
 
 a{
@@ -215,7 +216,7 @@ li:hover{
 	position: relative;
 }
 
-img{
+.title2 img{
 	padding-top: 20px;
 	object-fit: cover;
 	width: 100%;
@@ -268,7 +269,7 @@ p{
 	grid-gap: 40px;
 }
 
-.resumenbx p{
+.paper .resumenbx .resumen p{
 	font-size: 14px;
 	line-height: 22px;
 	padding: 10px;
@@ -284,6 +285,116 @@ p{
 	float: right;
 }
 
+.proyecto{
+	max-width: 80%;
+	margin: 80px auto;
+	margin-top: 0px;
+	text-align: center;
+}
 
+.proyecto h1{
+	font-size: 6vmin;
+	font-family: Aboreto;
+}
 
+.proyecto img{
+	object-fit: cover;
+	max-height: 500px;
+	padding: 0;
+	margin: 0;
+}
 
+.proyectobx{
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 40px;
+}
+
+.proyecto .proyectobx .proyect p{
+	font-size: 14px;
+	line-height: 22px;
+	padding: 10px;
+	font-family: Quattrocento Sans;
+	color: #0B0A0A;
+	text-align: justify;
+	width: 800px;
+}
+
+.proyect .ImgBx {
+	float: right;
+	position: relative;
+}
+
+.proyect2 p{
+	font-size: 14px;
+	line-height: 22px;
+	padding: 10px;
+	font-family: Quattrocento Sans;
+	color: #0B0A0A;
+	margin-top: 20px;
+	text-align: left;
+}
+
+.Vinculación{
+	max-width: 80%;
+	margin: 80px auto;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.Vinculación h1{
+	font-size: 6vmin;
+	font-family: Aboreto;
+}
+
+.Vinculacionbx{
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 40px;
+}
+
+.Vinculación .Vinculacionbx .Vinculación{
+	flex-basis: 31%;
+	background: #FF577F;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+
+.Vinculación .Vinculacionbx .Vinculación p{
+	font-size: 14px;
+	line-height: 22px;
+	padding: 10px;
+	font-family: Quattrocento Sans;
+	color: #FFFFFF;
+	text-align: justify;
+}	
+
+.conclusion img{
+	object-fit: cover;
+	margin-top: 20px;
+}
+
+.footer{
+	width: 100%;
+	min-height: 80px;
+	padding: 20px 80px;
+	margin: 0;
+	background: #3E424A;
+	text-align: center;
+}
+
+.footer p{
+	color: #FFFFFF;
+	margin: 20px auto;
+	font-family: Quattrocento Sans;
+}
+
+.footer p a{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
